@@ -1,0 +1,143 @@
+.title{
+    color: black;
+  }
+  
+  .logo{
+    height: 400px;
+    width: 400px;
+   position: fixed; 
+   top: 30vh;
+   left: 30vh;
+  
+  }
+  .grey-box{
+    width: 50vh;
+    height: auto;
+    position: fixed;
+    top: 5vh;
+    left: 120vh;
+    bottom: 5vh;
+    background-color: #9fb8cb99;
+    border-radius: 20px;
+  }
+  
+  .blue-box1{
+    top: 20;
+    height: 60px;
+    width: 270px;
+    background-color: #0D6EFD;
+    color: black;
+    border-radius: 10px;
+    margin-top: 300px;
+    
+  }
+  .blue-box2{
+    height: 60px;
+    width: 270px;
+    background-color: #0D6EFD;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  ::placeholder{
+    color: white;
+  }
+  
+  .grey-box .secure{
+    font-size: 20px;
+    font-weight: 500;
+    color: black ;
+    margin: 20px 70px;
+  }
+  
+  
+  /* ----------------- Upload CSS ----------------------------------------- */
+  .frame {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background-color: #ffffff;
+  }
+  
+  .frame .overlap-group {
+    position: absolute;
+    width: 339px;
+    height: 71px;
+    top: 564px;
+    left: 550px;
+    background-color: #0d6efd;
+    border-radius: 10px;
+  }
+  
+  .frame .ic-sharp-upload {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 13px;
+    left: 75px;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    top: 11px;
+    left: 146px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .line {
+    position: absolute;
+    width: 1px;
+    height: 46px;
+    top: 13px;
+    left: 130px;
+    object-fit: cover;
+  }
+  
+  .frame .div {
+    position: absolute;
+    top: 291px;
+    left: 386px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .lorem-ipsum-is {
+    position: absolute;
+    width: 943px;
+    top: 399px;
+    left: 248px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  #uploadIcon{
+  
+    padding-left: px;
+  }
+  
+  #submitButton{
+    background-color: #0D6EFD;
+    color:rgb(192, 192, 192);
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  
+  #form{
+    text-align: center;
+  }
